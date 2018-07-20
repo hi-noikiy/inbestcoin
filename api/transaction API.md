@@ -1,104 +1,102 @@
-½»Ò×API	  
+äº¤æ˜“API	  
 
-ÓÃÓÚÍ¨¹ı½Ó¿Ú¿ìËÙ½øĞĞ½»Ò×
+ç”¨äºé€šè¿‡æ¥å£å¿«é€Ÿè¿›è¡Œäº¤æ˜“
 
-2.1Î¯ÍĞÏÂµ¥
+2.1å§”æ‰˜ä¸‹å•
 
-½Ó¿Ú	ÃèÊö
+æ¥å£	æè¿°
 
-exapi/api/trade/order	Î¯ÍĞÏÂµ¥
+exapi/api/trade/order	å§”æ‰˜ä¸‹å•
 
-Ê¾Àı
+ç¤ºä¾‹
 
 //# Request
 
-entrustPrice:1 ¼Û¸ñ
+entrustPrice:1 ä»·æ ¼
 
-type:1 Âò
+type:1 ä¹°
 
 coinCode:BTC_LTC
 
-entrustCount:1 ÊıÁ¿
+entrustCount:1 æ•°é‡
 
 entrustWay:1
 
-accesskey:68 KÖµ
+accesskey:68 Kå€¼
 
-Sign1£ºd5b6c24d00b571c298b32efca4775647
+Sign1ï¼šd5b6c24d00b571c298b32efca4775647
 
----------------------------------------------------
+entrustPrice:2 ä»·æ ¼
 
-entrustPrice:2 ¼Û¸ñ
-
-type:2  Âô
+type:2  å–
 
 coinCode:BTC_LTC
 
-entrustCount:2 ÊıÁ¿
+entrustCount:2 æ•°é‡
 
 entrustWay:1 
 
-accesskey:¹«Ô¿ 68
+accesskey:å…¬é’¥ 68
 
-Sign1£ºhlsafc24d00b5214296dbs2efca477ada
+Sign1ï¼šhlsafc24d00b5214296dbs2efca477ada
 
 //# Response
 
-{"success":true,"msg":"Î¯ÍĞ³É¹¦","obj":null,"code":""}
+{"success":true,"msg":"å§”æ‰˜æˆåŠŸ","obj":null,"code":""}
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò	String aValue =entrustPrice+type+coinCode+entrustCount
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº	String aValue =entrustPrice+type+coinCode+entrustCount
 
-2.2È¡ÏûÈ«²¿Î¯ÍĞ
+2.2å–æ¶ˆå…¨éƒ¨å§”æ‰˜
 
-exapi/api/trade/cancelOrder	È¡ÏûÈ«²¿Î¯ÍĞ
+exapi/api/trade/cancelOrder	å–æ¶ˆå…¨éƒ¨å§”æ‰˜
 
-Ê¾Àı
+ç¤ºä¾‹
 
 //# Request
 
 acoinCode =BTC_LTC
 
-accesskey=key  ¹«Ô¿
+accesskey=key  å…¬é’¥
 
 //# Response
 
 {"success":true,"
 
-msg":"³·Ïú³É¹¦",
+msg":"æ’¤é”€æˆåŠŸ",
 
 "obj":null,"code":""}
 
-·µ»ØÖµËµÃ÷	Success£º×´Ì¬
+è¿”å›å€¼è¯´æ˜	Successï¼šçŠ¶æ€
 
-Message£ºÌáÊ¾ĞÅÏ¢
+Messageï¼šæç¤ºä¿¡æ¯
 
-²ÎÊıËµÃ÷
+å‚æ•°è¯´æ˜
 
-coinCode: ±ÒµÄ´úÂë
+coinCode: å¸çš„ä»£ç 
 
-Accesskey£º¹«Ô¿
+Accesskeyï¼šå…¬é’¥
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº
 	
 String aValue =acoinCode
 
-2.3»ñÈ¡ÎÒµÄÎ¯ÍĞ
+2.3è·å–æˆ‘çš„å§”æ‰˜
 
-exapi/api/user/singleExEntrust	»ñÈ¡ÎÒµÄÎ¯ÍĞ
+exapi/api/user/singleExEntrust	è·å–æˆ‘çš„å§”æ‰˜
 
-Ê¾Àı
+ç¤ºä¾‹
 
 //# Request
 
-"key":"accesskey","value":"68" ¹©Ô¿
+"key":"accesskey","value":"68" ä¾›é’¥
 
-"key":"limit","value":"10" ÏÔÊ¾µÄÌõÊı
+"key":"limit","value":"10" æ˜¾ç¤ºçš„æ¡æ•°
 
-"key":"offset","value":"0" ´ÓµÚ¼¸Ìõ¿ªÊ¼ÏÔÊ¾
+"key":"offset","value":"0" ä»ç¬¬å‡ æ¡å¼€å§‹æ˜¾ç¤º
 
-"key":"sortOrder","value":"asc" ÏÔÊ¾µÄË³Ğò
+"key":"sortOrder","value":"asc" æ˜¾ç¤ºçš„é¡ºåº
 
-"key":"querypath","value":"current" ²éÑ¯Êı¾İµÄÀàĞÍ
+"key":"querypath","value":"current" æŸ¥è¯¢æ•°æ®çš„ç±»å‹
 
 "key":"sign1","value":"03d674d39203432cb2af8a61e3a12fb
 
@@ -106,59 +104,55 @@ exapi/api/user/singleExEntrust	»ñÈ¡ÎÒµÄÎ¯ÍĞ
 
 {
 
-"success": true,
+	"success": true,
 
-"msg": "",
+	"msg": "",
 
-"obj": {
+	"obj": {
 
-"page": 1, Ò³Êı
+		"page": 1, é¡µæ•°
 
-"pageSize": 10, ÏÔÊ¾µÄÌõÊı
+		"pageSize": 10, æ˜¾ç¤ºçš„æ¡æ•°
 
-"totalPage": 1, ×ÜÒ³Êı
+		"totalPage": 1, æ€»é¡µæ•°
 
-"recordsTotal": 1, ×ÜÌõÊı
+		"recordsTotal": 1, æ€»æ¡æ•°
 
-"recordsFiltered": 1,
+		"recordsFiltered": 1,
 
-"rows": [
+		"rows": [{
 
-{
+			"entrustNum": "180122165729001585", å•å·
 
-"entrustNum": "180122165729001585", µ¥ºÅ
+			"entrustTime": "2018-01-22 16:57:30", æ—¶é—´
 
-"entrustTime": "2018-01-22 16:57:30", Ê±¼ä
+			"entrustTime_long": null,
 
-"entrustTime_long": null,
+			"source": 1, æ¥æº 1ä¸ºpc 8ä¸ºaip
 
-"source": 1, À´Ô´ 1Îªpc 8Îªaip
+			"entrustPrice": 1,å§”æ‰˜ä»·æ ¼
 
-"entrustPrice": 1,Î¯ÍĞ¼Û¸ñ
+			"entrustCount": 1,å§”æ‰˜æ•°é‡
 
-"entrustCount": 1,Î¯ÍĞÊıÁ¿
+			"type": 1,ä¹°å–ç±»å‹ 1ä¸ºä¹°2ä¸ºå–
 
-"type": 1,ÂòÂôÀàĞÍ 1ÎªÂò2ÎªÂô
+			"surplusEntrustCount": 1, ä¸ºæˆäº¤æ•°é‡
 
-"surplusEntrustCount": 1, Îª³É½»ÊıÁ¿
+			"status": 0,
 
-"status": 0,
+			"transactionSum": 0, äº¤æ˜“æ€»é‡‘é¢
 
-"transactionSum": 0, ½»Ò××Ü½ğ¶î
+			"entrustSum": 1,å§”æ‰˜æ•°é‡
 
-"entrustSum": 1,Î¯ÍĞÊıÁ¿
+			"processedPrice": null,
 
-"processedPrice": null,
+			"coinCode": "BTC", äº¤æ˜“å¸
 
-"coinCode": "BTC", ½»Ò×±Ò
+			"fixPriceCoinCode": "LTC", å®šä»·å¸
 
-"fixPriceCoinCode": "LTC", ¶¨¼Û±Ò
+			"coin": null
 
-"coin": null
-
-            }
-
-        ],
+           		 }],
 
 "total": 1
 
@@ -168,39 +162,39 @@ exapi/api/user/singleExEntrust	»ñÈ¡ÎÒµÄÎ¯ÍĞ
 
 }
 
-·µ»ØÖµËµÃ÷	Success£º×´Ì¬
+è¿”å›å€¼è¯´æ˜	Successï¼šçŠ¶æ€
 
-Message£ºÌáÊ¾ĞÅÏ¢
+Messageï¼šæç¤ºä¿¡æ¯
 
-²ÎÊıËµÃ÷	¼ûÉÏ
+å‚æ•°è¯´æ˜	è§ä¸Š
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò	
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº	
 
 String aValue =limit+offset+sortOrder+querypath
 
-2.4»ñÈ¡ÓÃ»§ĞÅÏ¢
+2.4è·å–ç”¨æˆ·ä¿¡æ¯
 
-exapi/api/user/getAccountInfo	»ñÈ¡ÓÃ»§ĞÅÏ¢
+exapi/api/user/getAccountInfo	è·å–ç”¨æˆ·ä¿¡æ¯
 
-ÊµÀı
+å®ä¾‹
 
 //# Request
 
-Accesskey £º68 ¹«Ô¿
+Accesskey ï¼š68 å…¬é’¥
 
-sign1£º5b4ecb8274578e7e sign
+sign1ï¼š5b4ecb8274578e7e sign
 
 //# Response
 
 {
 
-"success": true, ÇëÇó×´Ì¬
+"success": true, è¯·æ±‚çŠ¶æ€
 
-"msg": "", ·µ»ØÏûÏ¢
+"msg": "", è¿”å›æ¶ˆæ¯
 
 "obj": {
 
-"isChongbi": "1", ÊÇ·ñ¿ªÆô³ä±ÒĞèÒªÊµÃûÈÏÖ¤ 0 ¿ª 1¹Ø
+"isChongbi": "1", æ˜¯å¦å¼€å¯å……å¸éœ€è¦å®åè®¤è¯ 0 å¼€ 1å…³
 
 "coinAccount": [
 
@@ -208,27 +202,27 @@ sign1£º5b4ecb8274578e7e sign
 
 "id": null,
 
-"coinCode": "USD", ±Ò´úÂë
+"coinCode": "USD", å¸ä»£ç 
 
-"hotMoney": 123123123, ¿ÉÓÃ×Ü¶î
+"hotMoney": 123123123, å¯ç”¨æ€»é¢
 
-"coldMoney": 0,¶³½á×Ü¶î
+"coldMoney": 0,å†»ç»“æ€»é¢
 
 "picturePath": null,
 
-"name": "USD",±ÒµÄÃû×Ö
+"name": "USD",å¸çš„åå­—
 
-"currencyType": "USD",±ÒµÄÀàĞÍ
+"currencyType": "USD",å¸çš„ç±»å‹
 
-"accountNum": "8800020008006081",ĞéÄâÕËºÅ
+"accountNum": "8800020008006081",è™šæ‹Ÿè´¦å·
 
-"tokenId": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741", ÎªÊÖ»ú¶ËÊ¹ÓÃ
+"tokenId": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741", ä¸ºæ‰‹æœºç«¯ä½¿ç”¨
 
 "languageCode": null,
 
 "keepDecimalForCoin": null,
 
-"moneyAndCoin": 0 0Îª·¨±Ò1ÎªĞéÄâ»õ±Ò
+"moneyAndCoin": 0 0ä¸ºæ³•å¸1ä¸ºè™šæ‹Ÿè´§å¸
 
             },
 
@@ -244,7 +238,7 @@ sign1£º5b4ecb8274578e7e sign
 
 "picturePath": "hryfile/6/b/d8f068e828754a18be3c5516908e1f21.png",
 
-"name": "±ÈÌØ±ÒÏÖ½ğ",
+"name": "æ¯”ç‰¹å¸ç°é‡‘",
 
 "currencyType": null,
 
@@ -262,15 +256,15 @@ sign1£º5b4ecb8274578e7e sign
 
         ],
 
-"isTrade": "1",ÊÇ·ñ¿ªÆô½»Ò×ĞèÒªÊµÃûÈÏÖ¤ 0¿ª 1¹Ø
+"isTrade": "1",æ˜¯å¦å¼€å¯äº¤æ˜“éœ€è¦å®åè®¤è¯ 0å¼€ 1å…³
 
-"witfee": 0.5,ÌáÏÖÊÖĞø·ÑÂÊ
+"witfee": 0.5,æç°æ‰‹ç»­è´¹ç‡
 
-"maxWithdrawMoneyOneTime": "20000",Ò»´Î×î´óÌáÏÖ
+"maxWithdrawMoneyOneTime": "20000",ä¸€æ¬¡æœ€å¤§æç°
 
-"languageCode": "USD",¶¨¼Û±Ò
+"languageCode": "USD",å®šä»·å¸
 
-"maxWithdrawMoney": "20000",Ò»Ìì×î´óÌáÏÖ
+"maxWithdrawMoney": "20000",ä¸€å¤©æœ€å¤§æç°
 
 "user": {
 
@@ -280,45 +274,45 @@ sign1£º5b4ecb8274578e7e sign
 
 "modified": null,
 
-"username": "1@1.cn"£¬ÓÃ»§Ãû
+"username": "1@1.cn"ï¼Œç”¨æˆ·å
 
 "password": "54a51aceddcd5cae153a6ae4124e28f5",
 
-"userCode": "a8b6548e24fd4172b9fb40186b201d7f",Î¨Ò»±êÊ¶
+"userCode": "a8b6548e24fd4172b9fb40186b201d7f",å”¯ä¸€æ ‡è¯†
 
-"isReal": 1,ÊÇ·ñÊµÃû0Ã»ÓĞÊµÃû£¬1ÊµÃû
+"isReal": 1,æ˜¯å¦å®å0æ²¡æœ‰å®åï¼Œ1å®å
 
-"isChange": 0,ÊÇ·ñÄÜ½»Ò×  0¿ÉÒÔ½»Ò×  1²»ÄÜ½»Ò×
+"isChange": 0,æ˜¯å¦èƒ½äº¤æ˜“  0å¯ä»¥äº¤æ˜“  1ä¸èƒ½äº¤æ˜“
 
-"isDelete": 0,ÊÇ·ñ½ûÓÃ  0Ã»ÓĞ½ûÓÃ 1½ûÓÃ
+"isDelete": 0,æ˜¯å¦ç¦ç”¨  0æ²¡æœ‰ç¦ç”¨ 1ç¦ç”¨
 
-"isLock": 0,ÊÇ·ñËø¶¨   0Ã»Ëø¶¨  1Ëø¶¨
+"isLock": 0,æ˜¯å¦é”å®š   0æ²¡é”å®š  1é”å®š
 
-"accountPassWord": "",½»Ò×ÃÜÂë
+"accountPassWord": "",äº¤æ˜“å¯†ç 
 
 "customerId": 68,
 
-"mobile": "1@1.cn",ÓÃ»§ÓÊÏä
+"mobile": "1@1.cn",ç”¨æˆ·é‚®ç®±
 
-"truename": "°¡",ÕæÊµÃû
+"truename": "å•Š",çœŸå®å
 
-"surname": "°¡",ÕæÊµĞÕ
+"surname": "å•Š",çœŸå®å§“
 
-"customerType": 1,¿Í»§ÀàĞÍ
+"customerType": 1,å®¢æˆ·ç±»å‹
 
 "salt": "32bcb9a877421ac3f7b9d1b81de700c4",
 
-"cardcode": "123132",Éí·İÖ¤
+"cardcode": "123132",èº«ä»½è¯
 
 "email": null,
 
 "sex": null,
 
-"postalAddress": null,ÏêÏ¸µØÖ·
+"postalAddress": null,è¯¦ç»†åœ°å€
 
 "googleKey": null,
 
-"googleState": 0, ¹È¸èÈÏÖ¤×´Ì¬(0·ñ£¬1ÊÇ)
+"googleState": 0, è°·æ­Œè®¤è¯çŠ¶æ€(0å¦ï¼Œ1æ˜¯)
 
 "messIp": "127.0.0.1",
 
@@ -326,9 +320,9 @@ sign1£º5b4ecb8274578e7e sign
 
 "phone": null,
 
-"phoneState": 0,ÊÖ»úÈÏÖ¤×´Ì¬(0·ñ£¬1ÊÇ)
+"phoneState": 0,æ‰‹æœºè®¤è¯çŠ¶æ€(0å¦ï¼Œ1æ˜¯)
 
-"states": 1,0 Î´ÊµÃû 1 ´ıÉóºË 2 ÒÑÊµÃû 3 ÒÑ¾Ü¾ø
+"states": 1,0 æœªå®å 1 å¾…å®¡æ ¸ 2 å·²å®å 3 å·²æ‹’ç»
 
 "tokenId": null,
 
@@ -344,51 +338,51 @@ sign1£º5b4ecb8274578e7e sign
 
         },
 
-"info": { ÊµÃûÈÏÖ¤ĞÅÏ¢
+"info": { å®åè®¤è¯ä¿¡æ¯
 
-"trueName": "°¡",  Ãû
+"trueName": "å•Š",  å
 
-"country": "86", ¹ú¼Ò±àºÅ
+"country": "86", å›½å®¶ç¼–å·
 
-"cardType": "1", Ö¤¼şÀàĞÍ 0Éí·İÖ¤1»¤ÕÕ
+"cardType": "1", è¯ä»¶ç±»å‹ 0èº«ä»½è¯1æŠ¤ç…§
 
-"cardId": "123132",Ö¤¼şºÅ
+"cardId": "123132",è¯ä»¶å·
 
-"surname": "°¡",ĞÕ
+"surname": "å•Š",å§“
 
-"papersType": "»¤ÕÕ", Ö¤¼şÃû³Æ
+"papersType": "æŠ¤ç…§", è¯ä»¶åç§°
 
 "type": "2"
 
         },
 
-"isTibi": "1" ÊÇ·ñ¿ªÆôÌá±ÒĞèÒªÊµÃûÈÏÖ¤ 0¿ª1¹Ø
+"isTibi": "1" æ˜¯å¦å¼€å¯æå¸éœ€è¦å®åè®¤è¯ 0å¼€1å…³
 
     },
 
-"code": "8888" ×´Ì¬±àÂë
+"code": "8888" çŠ¶æ€ç¼–ç 
 
 }
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº
 	
 String aValue =accesskey
 
-2.5Ìá½»ÓÃ»§³äÖµÇëÇó
+2.5æäº¤ç”¨æˆ·å……å€¼è¯·æ±‚
 
-exapi/api/user/rmbdeposit	Ìá½»ÓÃ»§³äÖµÇëÇó
+exapi/api/user/rmbdeposit	æäº¤ç”¨æˆ·å……å€¼è¯·æ±‚
 
-Ê¾Àı	//Request
+ç¤ºä¾‹	//Request
 
-surname:°¡  ³äÖµÈËĞÕ
+surname:å•Š  å……å€¼äººå§“
 
-remitter:°¡ ³äÖµÈËÃû
+remitter:å•Š å……å€¼äººå
 
-bankCode:6222021604007927773 ³äÖµ¿¨ºÅ
+bankCode:6222021604007927773 å……å€¼å¡å·
 
-bankAmount:10000 ³åÖµ½ğ¶î
+bankAmount:10000 å†²å€¼é‡‘é¢
 
-bankName:ÕĞÉÌÒøĞĞ ³åÖµÒøĞĞ
+bankName:æ‹›å•†é“¶è¡Œ å†²å€¼é“¶è¡Œ
 
 //Response
 
@@ -402,67 +396,67 @@ bankName:ÕĞÉÌÒøĞĞ ³åÖµÒøĞĞ
 
 "saasId": null,
 
-"created": "2018-01-23 14:03:47", ³äÖµÊ±¼ä
+"created": "2018-01-23 14:03:47", å……å€¼æ—¶é—´
 
 "modified": null,
 
 "id": null,
 
-"website": null,  Õ¾µãÀà±ğÄ¬ÈÏcn
+"website": null,  ç«™ç‚¹ç±»åˆ«é»˜è®¤cn
 
-"transactionNum": "011801231403474227959", ³äÖµµ¥ºÅ
+"transactionNum": "011801231403474227959", å……å€¼å•å·
 
-"userName": "1@1.cn",ÓÃ»§µÇÂ¼Ãû
+"userName": "1@1.cn",ç”¨æˆ·ç™»å½•å
 
-"userId": null, ÉóºËÈËId  ºóÌ¨ÓÃ»§
+"userId": null, å®¡æ ¸äººId  åå°ç”¨æˆ·
 
-"customerId": 68,³äÖµÓÃ»§Ãû
+"customerId": 68,å……å€¼ç”¨æˆ·å
 
-"accountId": 65,ÕË»§ID
+"accountId": 65,è´¦æˆ·ID
 
-"cardHolder": "°¡",
+"cardHolder": "å•Š",
 
-"transactionType": 3,½»Ò×ÀàĞÍ(1ÏßÉÏ³äÖµ,2ÏßÉÏÌáÏÖ 3ÏßÏÂ³äÖµ 4ÏßÏÂÈ¡ÏÖ 5Ö§¸¶±¦³äÖµ)
+"transactionType": 3,äº¤æ˜“ç±»å‹(1çº¿ä¸Šå……å€¼,2çº¿ä¸Šæç° 3çº¿ä¸‹å……å€¼ 4çº¿ä¸‹å–ç° 5æ”¯ä»˜å®å……å€¼)
 
-"transactionMoney": 10000,½»Ò×½ğ¶î
+"transactionMoney": 10000,äº¤æ˜“é‡‘é¢
 
-"fee": 20,ÊÖĞø·Ñ
+"fee": 20,æ‰‹ç»­è´¹
 
-"status": 1,1´ıÉóºË 2ÒÑÍê³É 3ÒÔ·ñ¾ö  4±íÊ¾µÈ´ı³É½»
+"status": 1,1å¾…å®¡æ ¸ 2å·²å®Œæˆ 3ä»¥å¦å†³  4è¡¨ç¤ºç­‰å¾…æˆäº¤
 
-"ourAccountNumber": "123456789",ÎÒ·½ÒøĞĞ¿¨ºÅ     
+"ourAccountNumber": "123456789",æˆ‘æ–¹é“¶è¡Œå¡å·     
 
-"custromerAccountNumber": "6222021604007927773", ÓÃ»§¿¨ºÅ
+"custromerAccountNumber": "6222021604007927773", ç”¨æˆ·å¡å·
 
-"currencyType": null,½»Ò×µÄ±ÒÀàĞÍ
+"currencyType": null,äº¤æ˜“çš„å¸ç±»å‹
 
-"surname": "°¡", ÓÃ»§ĞÕ
+"surname": "å•Š", ç”¨æˆ·å§“
 
-"trueName": "°¡",ÓÃ»§Ãû
+"trueName": "å•Š",ç”¨æˆ·å
 
-"bankNum": "ÕĞÉÌÒøĞĞ",ÒøĞĞÃû³Æ
+"bankNum": "æ‹›å•†é“¶è¡Œ",é“¶è¡Œåç§°
 
-"bankName": "zhongguonongyeyinxing",ÒøĞĞÆ´Òô
+"bankName": "zhongguonongyeyinxing",é“¶è¡Œæ‹¼éŸ³
 
-"bankProvince": null, ¿ª»§Ê¡·İ
+"bankProvince": null, å¼€æˆ·çœä»½
 
-"bankAddress": "±±¾©Ö§ĞĞ",¿ª»§ĞĞËùÔÚµØ  ¿ª»§ÊĞ
+"bankAddress": "åŒ—äº¬æ”¯è¡Œ",å¼€æˆ·è¡Œæ‰€åœ¨åœ°  å¼€æˆ·å¸‚
 
-"subBank": null,¿ª»§Ö§ĞĞµÄÒøĞĞ»ú¹¹´úÂë
+"subBank": null,å¼€æˆ·æ”¯è¡Œçš„é“¶è¡Œæœºæ„ä»£ç 
 
-"readyStates": null,ºóÌ¨´¦ÀíºóµÄĞŞ¸ÄµÄ×´Ì¬ (±íÊ¾ºóÌ¨ÉêÇëÁËÖ®ºó  ĞèÒªµÚÈı·½»Øµ÷µÄ·½·¨¡£)
+"readyStates": null,åå°å¤„ç†åçš„ä¿®æ”¹çš„çŠ¶æ€ (è¡¨ç¤ºåå°ç”³è¯·äº†ä¹‹å  éœ€è¦ç¬¬ä¸‰æ–¹å›è°ƒçš„æ–¹æ³•ã€‚)
 
-"thirdPayName": null, µÚÈı·½Ö§¸¶µÄÃû×Ö
+"thirdPayName": null, ç¬¬ä¸‰æ–¹æ”¯ä»˜çš„åå­—
 
-"remark": "9891", ±¸×¢
+"remark": "9891", å¤‡æ³¨
 
-"rejectionReason": null, ²µ»ØÀíÓÉ
+"rejectionReason": null, é©³å›ç†ç”±
 
-"accountName": "±±¾©ÍßÁ¦", ÎÒ·½Ãû³Æ
+"accountName": "åŒ—äº¬ç“¦åŠ›", æˆ‘æ–¹åç§°
 
-"accountNumber": "123456789",ÎÒ·½ÕÊºÅ
+"accountNumber": "123456789",æˆ‘æ–¹å¸å·
 
-"created_long": 1516687427430,ÁªÏµµç»°
+"created_long": 1516687427430,è”ç³»ç”µè¯
 
 "style": 0
 
@@ -472,17 +466,17 @@ bankName:ÕĞÉÌÒøĞĞ ³åÖµÒøĞĞ
 
 }
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò	String aValue =surname+remitter+bankCode+bankAmount+bankName
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº	String aValue =surname+remitter+bankCode+bankAmount+bankName
 
-2.6»ñÈ¡ÓÃ»§µÄÌáÏÖµØÖ·
+2.6è·å–ç”¨æˆ·çš„æç°åœ°å€
 
-exapi/api/user/getWithdrawAddress	»ñÈ¡ÓÃ»§µÄÌáÏÖµØÖ·
+exapi/api/user/getWithdrawAddress	è·å–ç”¨æˆ·çš„æç°åœ°å€
 
-Ê¾Àı	//Request
+ç¤ºä¾‹	//Request
 
-Accesskey£º 68
+Accesskeyï¼š 68
 
-sign1£º25725b4ecb8274578e7e907d995cd79c
+sign1ï¼š25725b4ecb8274578e7e907d995cd79c
 
 //Response
 
@@ -504,35 +498,35 @@ sign1£º25725b4ecb8274578e7e907d995cd79c
 
 "id": 8,
 
-"accountId": 65, ÕË»§ID
+"accountId": 65, è´¦æˆ·ID
 
-"customerId": 68, ÓÃ»§id
+"customerId": 68, ç”¨æˆ·id
 
-"userName": "1@1.cn", ÓÃ»§Ãû
+"userName": "1@1.cn", ç”¨æˆ·å
 
-"trueName": "", Ãû
+"trueName": "", å
 
-"surName": "null", ĞÕ
+"surName": "null", å§“
 
-"currencyType": null, »õ±ÒÀàĞÍ
+"currencyType": null, è´§å¸ç±»å‹
 
-"cardName": "", ÒøĞĞ¿¨³ÖÓĞÈË
+"cardName": "", é“¶è¡Œå¡æŒæœ‰äºº
 
-"cardNumber": "23", ÒøĞĞ¿¨ºÅ
+"cardNumber": "23", é“¶è¡Œå¡å·
 
-"cardBank": "ÖĞ¹úÒøĞĞ",  ¿ª»§ÒøĞĞ
+"cardBank": "ä¸­å›½é“¶è¡Œ",  å¼€æˆ·é“¶è¡Œ
 
-"bankAddress": "Ş»³ÇÊĞ",  ¿ª»§ĞĞËùÔÚµØ  ¿ª»§ÊĞ
+"bankAddress": "è—åŸå¸‚",  å¼€æˆ·è¡Œæ‰€åœ¨åœ°  å¼€æˆ·å¸‚
 
-"subBank": "23",  ¿ª»§Ö§ĞĞ
+"subBank": "23",  å¼€æˆ·æ”¯è¡Œ
 
-"subBankNum": "23",  ¿ª»§Ö§ĞĞÒøĞĞ»ú¹¹´úÂë
+"subBankNum": "23",  å¼€æˆ·æ”¯è¡Œé“¶è¡Œæœºæ„ä»£ç 
  
-"website": "",  Õ¾µãÀà±ğÄ¬ÈÏcn
+"website": "",  ç«™ç‚¹ç±»åˆ«é»˜è®¤cn
 
-"bankProvince": "ºÓ±±Ê¡",  ¿ª»§Ê¡·İ
+"bankProvince": "æ²³åŒ—çœ",  å¼€æˆ·çœä»½
 
-"signBank": null   Ç©Ô¼ÒøĞĞÍ¨µÀ
+"signBank": null   ç­¾çº¦é“¶è¡Œé€šé“
 
         }
 
@@ -542,29 +536,29 @@ sign1£º25725b4ecb8274578e7e907d995cd79c
 
 }
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò	String aValue =accesskey
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº	String aValue =accesskey
 
-2.7»ñÈ¡Êı×Ö×Ê²úÌáÏÖ³äÖµ¼ÇÂ¼
+2.7è·å–æ•°å­—èµ„äº§æç°å……å€¼è®°å½•
 
 exapi/api/user/findcoinInfo
 
-	»ñÈ¡Êı×Ö×Ê²úÌáÏÖ³äÖµ¼ÇÂ¼
+	è·å–æ•°å­—èµ„äº§æç°å……å€¼è®°å½•
 
-Ê¾Àı	//Request
+ç¤ºä¾‹	//Request
 
-accesskey£º68 
+accesskeyï¼š68 
 
-sign1£º0e6035649cc82664407555de2bda1f46
+sign1ï¼š0e6035649cc82664407555de2bda1f46
 
-"key":"accesskey","value":"68" ¹©Ô¿
+"key":"accesskey","value":"68" ä¾›é’¥
 
-"key":"limit","value":"10" ÏÔÊ¾µÄÌõÊı
+"key":"limit","value":"10" æ˜¾ç¤ºçš„æ¡æ•°
 
-"key":"offset","value":"0" ´ÓµÚ¼¸Ìõ¿ªÊ¼ÏÔÊ¾
+"key":"offset","value":"0" ä»ç¬¬å‡ æ¡å¼€å§‹æ˜¾ç¤º
 
-"key":"sortOrder","value":"asc" ÏÔÊ¾µÄË³Ğò
+"key":"sortOrder","value":"asc" æ˜¾ç¤ºçš„é¡ºåº
 
-type£º1 £¨1Îª³ä±Ò¼ÇÂ¼£¬2 ÎªÌá±Ò¼ÇÂ¼£©
+typeï¼š1 ï¼ˆ1ä¸ºå……å¸è®°å½•ï¼Œ2 ä¸ºæå¸è®°å½•ï¼‰
 
 //Response
 
@@ -576,13 +570,13 @@ type£º1 £¨1Îª³ä±Ò¼ÇÂ¼£¬2 ÎªÌá±Ò¼ÇÂ¼£©
 
 "obj": {
 
-"page": 1, Ò³Êı
+"page": 1, é¡µæ•°
 
-"pageSize": 10, ÏÔÊ¾µÄÌõÊı
+"pageSize": 10, æ˜¾ç¤ºçš„æ¡æ•°
 
-"totalPage": 1, ×ÜÒ³Êı
+"totalPage": 1, æ€»é¡µæ•°
 
-"recordsTotal": 1, ×ÜÌõÊı
+"recordsTotal": 1, æ€»æ¡æ•°
 
 "recordsFiltered": 1,
 
@@ -598,37 +592,37 @@ type£º1 £¨1Îª³ä±Ò¼ÇÂ¼£¬2 ÎªÌá±Ò¼ÇÂ¼£©
 
 "id": null,
 
-"transactionMoney": 1, ½»Ò×½ğ¶î
+"transactionMoney": 1, äº¤æ˜“é‡‘é¢
 
-"transactionNum": "021801231501577184193", ½»Ò×¶©µ¥ºÅ
+"transactionNum": "021801231501577184193", äº¤æ˜“è®¢å•å·
 
-"fee": 0, ÊÖĞø·Ñ
+"fee": 0, æ‰‹ç»­è´¹
 
-"status": 1, ×´Ì¬ 1´ıÉóºË --2ÒÑÍê³É -- 3ÒÔ·ñ¾ö
+"status": 1, çŠ¶æ€ 1å¾…å®¡æ ¸ --2å·²å®Œæˆ -- 3ä»¥å¦å†³
 
-"customerId": null, ÓÃ»§id
+"customerId": null, ç”¨æˆ·id
 
 "customerName": null,
 
 "trueName": null,
 
-"accountId": null, Êı×Ö»õ±ÒÕË»§id
+"accountId": null, æ•°å­—è´§å¸è´¦æˆ·id
 
-"transactionType": null, ½»Ò×ÀàĞÍ(1³ä±Ò £¬2Ìá±Ò)
+"transactionType": null, äº¤æ˜“ç±»å‹(1å……å¸ ï¼Œ2æå¸)
 
-"userId": null, ²Ù×÷ÈËid
+"userId": null, æ“ä½œäººid
 
 "currencyType": null,
 
-"coinCode": "BTC", ±ÒµÄÀàĞÍ
+"coinCode": "BTC", å¸çš„ç±»å‹
 
-"website": null,  Õ¾µãÀà±ğ en ,cn
+"website": null,  ç«™ç‚¹ç±»åˆ« en ,cn
 
 "created_long": 1516690917000,
 
 "remark": "",
 
-"rejectionReason": null, ²µ»ØÔ­Òò
+"rejectionReason": null, é©³å›åŸå› 
 
 "inAddress": null,
 
@@ -658,27 +652,27 @@ type£º1 £¨1Îª³ä±Ò¼ÇÂ¼£¬2 ÎªÌá±Ò¼ÇÂ¼£©
 
 }
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò	String aValue =limit+offset+sortOrder+type
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº	String aValue =limit+offset+sortOrder+type
 
-2.8ÌáÏÖÊı×Ö×Ê²ú
+2.8æç°æ•°å­—èµ„äº§
 
-/exapi/api/user/withdraw	ÌáÏÖÊı×Ö×Ê²ú
+/exapi/api/user/withdraw	æç°æ•°å­—èµ„äº§
 
-Ê¾Àı
+ç¤ºä¾‹
 
 //Request
 
-accesskey£º68 
+accesskeyï¼š68 
 
-sign1£º7d9d0f43c936570af49eaef904eeb4b7
+sign1ï¼š7d9d0f43c936570af49eaef904eeb4b7
 
-btcKey£º123
+btcKeyï¼š123
 
-coinType£ºBTC
+coinTypeï¼šBTC
 
-btcNum£º0.001
+btcNumï¼š0.001
 
-pacecurrecy£º0
+pacecurrecyï¼š0
 
 //Response
 
@@ -686,7 +680,7 @@ pacecurrecy£º0
 
 "success": true,
 
-"msg": "ÉêÇëÌá±Ò³É¹¦",
+"msg": "ç”³è¯·æå¸æˆåŠŸ",
 
 "obj": null,
 
@@ -694,4 +688,4 @@ pacecurrecy£º0
 
 }
 
-ÇëÇó²ÎÊı¼ÓÃÜË³Ğò	String aValue =btcKey+coinType+btcNum+pacecurrecy
+è¯·æ±‚å‚æ•°åŠ å¯†é¡ºåº	String aValue =btcKey+coinType+btcNum+pacecurrecy
