@@ -1,112 +1,201 @@
 market quotations API
 
-½Ó¿Ú	ÃèÊö
+æ¥å£	æè¿°
 
-/exapi/api/klinevtwo/message	ĞĞÇé,»ñÈ¡ÒÑ¿ªÆôµÄÊĞ³¡ĞÅÏ¢£¬°üÀ¨¼Û¸ñ¡¢ÊıÁ¿Ğ¡ÊıµãÎ»Êı
+/exapi/api/klinevtwo/message	è¡Œæƒ…,è·å–å·²å¼€å¯çš„å¸‚åœºä¿¡æ¯ï¼ŒåŒ…æ‹¬ä»·æ ¼ã€æ•°é‡å°æ•°ç‚¹ä½æ•°
 
-Ê¾Àı
+ç¤ºä¾‹
 
 //# Response
 
-marketDetail:{,¡­},
+marketDetail:{,â€¦},
 
-productList:["BTC_LTC", "BTC_USDT", "LTC_USDT", "BTC_USD", "LTC_USD", "BCC_BTC", "ETH_BTC", "QTUM_USDT",¡­]
+productList:["BTC_LTC", "BTC_USDT", "LTC_USDT", "BTC_USD", "LTC_USD", "BCC_BTC", "ETH_BTC", "QTUM_USDT",â€¦]
 
 lastKLine{},
 
-²ÎÊıËµÃ÷
-	
-marketDetail:ÊĞ³¡Ï¸½Ú
-productList£º²úÆ·Çåµ¥
-lastKLine:kÏßÊı¾İ
-marketDetail£º{
-		BCC_BTC¾ßÌå²úÆ·:[
-		£û
-			idCur:1516340689 (Ê±¼ä´Á)
-			idPrev:0  (idÇ°×º)
-			msgType:"marketDetail0" (ÏûÏ¢ÀàĞÍ)
-			payload:{...} (½»Ò×ĞÅÏ¢[µ¥¶ÀËµÃ÷¼ûÏÂÒ»À¸])
-			symbolId:"BCC_BTC"( ½»Ò×¶Ô)
-			version:1 ( °æ±¾)
-		 	_id:1516340689 (Ê±¼ä´Á)
-		 £ı
+å‚æ•°è¯´æ˜
+
+marketDetail:å¸‚åœºç»†èŠ‚
+
+productListï¼šäº§å“æ¸…å•
+
+lastKLine:kçº¿æ•°æ®
+
+marketDetailï¼š{
+
+		BCC_BTCå…·ä½“äº§å“:[
+		
+		ï½›
+		
+			idCur:1516340689 (æ—¶é—´æˆ³)
+			
+			idPrev:0  (idå‰ç¼€)
+			
+			msgType:"marketDetail0" (æ¶ˆæ¯ç±»å‹)
+			
+			payload:{...} (äº¤æ˜“ä¿¡æ¯[å•ç‹¬è¯´æ˜è§ä¸‹ä¸€æ ])
+			
+			symbolId:"BCC_BTC"( äº¤æ˜“å¯¹)
+			
+			version:1 ( ç‰ˆæœ¬)
+			
+		 	_id:1516340689 (æ—¶é—´æˆ³)
+			
+		 ï½
+		 
 	      ]}
-Payload ËµÃ÷
-amount:0 ³É½»Á¿
-amp:null´ı¶¨¡£¡£
-asks:{price: ³É½»¼Û¸ñ, amount: ³É½»Á¿, level: ´ı¶¨}  Î¯ÍĞÂô
+	      
+Payload è¯´æ˜
+
+amount:0 æˆäº¤é‡
+
+amp:nullå¾…å®šã€‚ã€‚
+
+asks:{price: æˆäº¤ä»·æ ¼, amount: æˆäº¤é‡, level: å¾…å®š}  å§”æ‰˜å–
+
 amount:null
-level:nullÓë×îĞÂ³É½»¼ÛÏàµÈ
+
+level:nullä¸æœ€æ–°æˆäº¤ä»·ç›¸ç­‰
+
 price:null
-bids:{price: ³É½»¼Û¸ñ, amount: ³É½»Á¿, level: ´ı¶¨¡£¡£}  Î¯ÍĞÂò
+
+bids:{price: æˆäº¤ä»·æ ¼, amount: æˆäº¤é‡, level: å¾…å®šã€‚ã€‚}  å§”æ‰˜ä¹°
+
 commissionRatio:0 
+
 innerDisc:0
+
 level:0
+
 outerDisc:0
+
 poor:0
+
 priceAverage:0
-priceHigh:0 ×î¸ß¼Û
+
+priceHigh:0 æœ€é«˜ä»·
+
 priceLast:0
-priceLow:0  ×îµÍ¼Û
-priceNew:0 ×îĞÂ³É½»¼Û
-priceOpen:0 ¿ªÅÌ¼Û
+
+priceLow:0  æœ€ä½ä»·
+
+priceNew:0 æœ€æ–°æˆäº¤ä»·
+
+priceOpen:0 å¼€ç›˜ä»·
+
 symbolId:"btccny"
-totalAmount:0  ÆúÓÃ
-totalVolume:   ÆúÓÃ
-trades:{price: ³É½»¼Û¸ñ, amount: ³É½»Á¿l, direction: ³É½»ÄÚÅÌÍâÅÌ, time: ³É½»Ê±¼ä} ³É½»Êı¾İ
+
+totalAmount:0  å¼ƒç”¨
+
+totalVolume:   å¼ƒç”¨
+
+trades:{price: æˆäº¤ä»·æ ¼, amount: æˆäº¤é‡l, direction: æˆäº¤å†…ç›˜å¤–ç›˜, time: æˆäº¤æ—¶é—´} æˆäº¤æ•°æ®
+
 turnVolume:0
+
 turnoverRate:0
+
 updownRatio:0
+
 updownVolume:0
+
 volumeRatio:0
+
 yestdayPriceLast: priceLast
+
 symbolId:"BCC_BTC"
+
 version:1
+
 _id:1516340689
 
-1.1	¸ù¾İ½»Ò×¶Ô»ñÈ¡ĞÅÏ¢(7b)
+1.1	æ ¹æ®äº¤æ˜“å¯¹è·å–ä¿¡æ¯(7b)
 
-/exapi/api/klinevtwo/data	¸ù¾İ½»Ò×¶Ô»ñÈ¡ĞÅÏ¢
-PostÇëÇó²ÎÊı	coinCode£ºBTC_CNY
-coinCode £º£û
-idCur:1516340689 (Ê±¼ä´Á)
-idPrev:0  (idÇ°×º)
-msgType:"marketDetail0" (ÏûÏ¢ÀàĞÍ)
+/exapi/api/klinevtwo/data	æ ¹æ®äº¤æ˜“å¯¹è·å–ä¿¡æ¯
+
+Postè¯·æ±‚å‚æ•°	coinCodeï¼šBTC_CNY
+
+coinCode ï¼šï½›
+
+idCur:1516340689 (æ—¶é—´æˆ³)
+
+idPrev:0  (idå‰ç¼€)
+
+msgType:"marketDetail0" (æ¶ˆæ¯ç±»å‹)
+
 payload:{
-amount:0 ³É½»Á¿
-amp:null´ı¶¨¡£¡£
-asks:{price: ³É½»¼Û¸ñ, amount: ³É½»Á¿, level: ´ı¶¨}  Î¯ÍĞÂô
+
+amount:0 æˆäº¤é‡
+
+amp:nullå¾…å®šã€‚ã€‚
+
+asks:{price: æˆäº¤ä»·æ ¼, amount: æˆäº¤é‡, level: å¾…å®š}  å§”æ‰˜å–
+
 amount:null
-level:nullÓë×îĞÂ³É½»¼ÛÏàµÈ
+
+level:nullä¸æœ€æ–°æˆäº¤ä»·ç›¸ç­‰
+
 price:null
-bids:{price: ³É½»¼Û¸ñ, amount: ³É½»Á¿, level: ´ı¶¨¡£¡£}  Î¯ÍĞÂò
+
+bids:{price: æˆäº¤ä»·æ ¼, amount: æˆäº¤é‡, level: å¾…å®šã€‚ã€‚}  å§”æ‰˜ä¹°
+
 commissionRatio:0 
+
 innerDisc:0
+
 level:0
+
 outerDisc:0
+
 poor:0
+
 priceAverage:0
-priceHigh:0 ×î¸ß¼Û
+
+priceHigh:0 æœ€é«˜ä»·
+
 priceLast:0
-priceLow:0  ×îµÍ¼Û
-priceNew:0 ×îĞÂ³É½»¼Û
-priceOpen:0 ¿ªÅÌ¼Û
+
+priceLow:0  æœ€ä½ä»·
+
+priceNew:0 æœ€æ–°æˆäº¤ä»·
+
+priceOpen:0 å¼€ç›˜ä»·
+
 symbolId:"btccny"
-totalAmount:0  ÆúÓÃ
-totalVolume:   ÆúÓÃ
-trades:{price: ³É½»¼Û¸ñ, amount: ³É½»Á¿l, direction: ³É½»ÄÚÅÌÍâÅÌ, time: ³É½»Ê±¼ä} ³É½»Êı¾İ
+
+totalAmount:0  å¼ƒç”¨
+
+totalVolume:   å¼ƒç”¨
+
+trades:{price: æˆäº¤ä»·æ ¼, amount: æˆäº¤é‡l, direction: æˆäº¤å†…ç›˜å¤–ç›˜, time: æˆäº¤æ—¶é—´} æˆäº¤æ•°æ®
+
 turnVolume:0
+
 turnoverRate:0
+
 updownRatio:0
+
 updownVolume:0
+
 volumeRatio:0
+
 yestdayPriceLast: priceLast
+
 symbolId:"BCC_BTC"
+
 version:1
+
 _id:1516340689
+
 } 
-symbolId:"BCC_BTC"( ½»Ò×¶Ô)
-version:1 ( °æ±¾)
-_id:1516340689 (Ê±¼ä´Á)
-£ı
+
+symbolId:"BCC_BTC"( äº¤æ˜“å¯¹)
+
+version:1 ( ç‰ˆæœ¬)
+
+_id:1516340689 (æ—¶é—´æˆ³)
+
+ï½
+
 ]}
