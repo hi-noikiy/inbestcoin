@@ -1,4 +1,4 @@
-market quotations API
+market quotations API（中文为解释说明）
 
 接口	描述
 
