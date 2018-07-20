@@ -8,7 +8,9 @@ market quotations API
 
 //# Response
 
-marketDetail:{,…},
+marketDetail:
+	{,…
+	},
 
 productList:["BTC_LTC", "BTC_USDT", "LTC_USDT", "BTC_USD", "LTC_USD", "BCC_BTC", "ETH_BTC", "QTUM_USDT",…]
 
@@ -22,7 +24,9 @@ productList：产品清单
 
 lastKLine:k线数据
 
-marketDetail：{
+marketDetail：
+
+		{
 
 		BCC_BTC具体产品:[
 		
@@ -50,9 +54,18 @@ Payload 说明
 
 amount:0 成交量
 
-amp:null待定。。
+amp:null待定
 
-asks:{price: 成交价格, amount: 成交量, level: 待定}  委托卖
+asks:
+	{
+	
+		price: 成交价格, 
+		
+		amount: 成交量,
+		
+		level: 待定
+		
+	}  委托卖
 
 amount:null
 
