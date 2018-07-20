@@ -154,11 +154,11 @@ exapi/api/user/singleExEntrust	获取我的委托
 
            		 }],
 
-"total": 1
+		"total": 1
 
-    },
+		},
 
-"code": "8888"
+	"code": "8888"
 
 }
 
@@ -188,179 +188,179 @@ sign1：5b4ecb8274578e7e sign
 
 {
 
-"success": true, 请求状态
+	"success": true, 请求状态
 
-"msg": "", 返回消息
+	"msg": "", 返回消息
 
-"obj": {
+	"obj": {
 
-"isChongbi": "1", 是否开启充币需要实名认证 0 开 1关
+		"isChongbi": "1", 是否开启充币需要实名认证 0 开 1关
 
-"coinAccount": [
+		"coinAccount": [
 
-            {
+           		 {
 
-"id": null,
+			"id": null,
 
-"coinCode": "USD", 币代码
+			"coinCode": "USD", 币代码
 
-"hotMoney": 123123123, 可用总额
+			"hotMoney": 123123123, 可用总额
 
-"coldMoney": 0,冻结总额
+			"coldMoney": 0,冻结总额
 
-"picturePath": null,
+			"picturePath": null,
 
-"name": "USD",币的名字
+			"name": "USD",币的名字
 
-"currencyType": "USD",币的类型
+			"currencyType": "USD",币的类型
 
-"accountNum": "8800020008006081",虚拟账号
+			"accountNum": "8800020008006081",虚拟账号
 
-"tokenId": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741", 为手机端使用
+			"tokenId": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741", 为手机端使用
 
-"languageCode": null,
+			"languageCode": null,
 
-"keepDecimalForCoin": null,
+			"keepDecimalForCoin": null,
 
-"moneyAndCoin": 0 0为法币1为虚拟货币
+			"moneyAndCoin": 0 0为法币1为虚拟货币
 
-            },
+           		 },
 
-            {
+           		 {
 
-"id": 534,
+			"id": 534,
 
-"coinCode": "BCC",
+			"coinCode": "BCC",
 
-"hotMoney": 0,
+			"hotMoney": 0,
 
-"coldMoney": 0,
+			"coldMoney": 0,
 
-"picturePath": "hryfile/6/b/d8f068e828754a18be3c5516908e1f21.png",
+			"picturePath": "hryfile/6/b/d8f068e828754a18be3c5516908e1f21.png",
 
-"name": "比特币现金",
+			"name": "比特币现金",
 
-"currencyType": null,
+			"currencyType": null,
 
-"accountNum": null,
+			"accountNum": null,
 
-"tokenId": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741",
+			"tokenId": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741",
 
-"languageCode": null,
+			"languageCode": null,
 
-"keepDecimalForCoin": 10,
+			"keepDecimalForCoin": 10,
 
-"moneyAndCoin": 1
+			"moneyAndCoin": 1
 
-            },
+            		},
 
-        ],
+        			],
 
-"isTrade": "1",是否开启交易需要实名认证 0开 1关
+		"isTrade": "1",是否开启交易需要实名认证 0开 1关
 
-"witfee": 0.5,提现手续费率
+		"witfee": 0.5,提现手续费率
 
-"maxWithdrawMoneyOneTime": "20000",一次最大提现
+		"maxWithdrawMoneyOneTime": "20000",一次最大提现
 
-"languageCode": "USD",定价币
+		"languageCode": "USD",定价币
 
-"maxWithdrawMoney": "20000",一天最大提现
+		"maxWithdrawMoney": "20000",一天最大提现
 
-"user": {
+		"user": {
 
-"saasId": "hurong_system",
+			"saasId": "hurong_system",
 
-"created": null,
+			"created": null,
 
-"modified": null,
+			"modified": null,
 
-"username": "1@1.cn"，用户名
+			"username": "1@1.cn"，用户名
+	
+			"password": "54a51aceddcd5cae153a6ae4124e28f5",
 
-"password": "54a51aceddcd5cae153a6ae4124e28f5",
+			"userCode": "a8b6548e24fd4172b9fb40186b201d7f",唯一标识
 
-"userCode": "a8b6548e24fd4172b9fb40186b201d7f",唯一标识
+			"isReal": 1,是否实名0没有实名，1实名
 
-"isReal": 1,是否实名0没有实名，1实名
+			"isChange": 0,是否能交易  0可以交易  1不能交易
 
-"isChange": 0,是否能交易  0可以交易  1不能交易
+			"isDelete": 0,是否禁用  0没有禁用 1禁用
 
-"isDelete": 0,是否禁用  0没有禁用 1禁用
+			"isLock": 0,是否锁定   0没锁定  1锁定
 
-"isLock": 0,是否锁定   0没锁定  1锁定
+			"accountPassWord": "",交易密码
 
-"accountPassWord": "",交易密码
+			"customerId": 68,
 
-"customerId": 68,
+			"mobile": "1@1.cn",用户邮箱
 
-"mobile": "1@1.cn",用户邮箱
+			"truename": "啊",真实名
 
-"truename": "啊",真实名
+			"surname": "啊",真实姓
 
-"surname": "啊",真实姓
+			"customerType": 1,客户类型
 
-"customerType": 1,客户类型
+			"salt": "32bcb9a877421ac3f7b9d1b81de700c4",
 
-"salt": "32bcb9a877421ac3f7b9d1b81de700c4",
+			"cardcode": "123132",身份证
 
-"cardcode": "123132",身份证
+			"email": null,
 
-"email": null,
+			"sex": null,
 
-"sex": null,
+			"postalAddress": null,详细地址
 
-"postalAddress": null,详细地址
+			"googleKey": null,
 
-"googleKey": null,
+			"googleState": 0, 谷歌认证状态(0否，1是)
 
-"googleState": 0, 谷歌认证状态(0否，1是)
+			"messIp": "127.0.0.1",
 
-"messIp": "127.0.0.1",
+			"passDate": null,
 
-"passDate": null,
+			"phone": null,
 
-"phone": null,
+			"phoneState": 0,手机认证状态(0否，1是)
 
-"phoneState": 0,手机认证状态(0否，1是)
+			"states": 1,0 未实名 1 待审核 2 已实名 3 已拒绝
 
-"states": 1,0 未实名 1 待审核 2 已实名 3 已拒绝
+			"tokenId": null,
 
-"tokenId": null,
+			"cardCurrency": null,
 
-"cardCurrency": null,
+			"uncardCurrency": null,
 
-"uncardCurrency": null,
+			"company": null,
 
-"company": null,
+			"uuid": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741",
 
-"uuid": "fbba9af4-5d6b-415f-b3c7-a2cefc9c3741",
+			"phone_googleState": 0
 
-"phone_googleState": 0
+       			 },
 
-        },
+		"info": { 实名认证信息
 
-"info": { 实名认证信息
+			"trueName": "啊",  名
 
-"trueName": "啊",  名
+			"country": "86", 国家编号
 
-"country": "86", 国家编号
+			"cardType": "1", 证件类型 0身份证1护照
 
-"cardType": "1", 证件类型 0身份证1护照
+			"cardId": "123132",证件号
 
-"cardId": "123132",证件号
+			"surname": "啊",姓
 
-"surname": "啊",姓
+			"papersType": "护照", 证件名称
 
-"papersType": "护照", 证件名称
+			"type": "2"
 
-"type": "2"
+        		},
 
-        },
+		"isTibi": "1" 是否开启提币需要实名认证 0开1关
 
-"isTibi": "1" 是否开启提币需要实名认证 0开1关
+   		 },
 
-    },
-
-"code": "8888" 状态编码
+	"code": "8888" 状态编码
 
 }
 
@@ -388,81 +388,81 @@ bankName:招商银行 冲值银行
 
 {
 
-"success": true,
+	"success": true,
 
-"msg": "",
+	"msg": "",
 
-"obj": {
+	"obj": {
 
-"saasId": null,
+		"saasId": null,
 
-"created": "2018-01-23 14:03:47", 充值时间
+		"created": "2018-01-23 14:03:47", 充值时间
 
-"modified": null,
+		"modified": null,
 
-"id": null,
+		"id": null,
 
-"website": null,  站点类别默认cn
+		"website": null,  站点类别默认cn
 
-"transactionNum": "011801231403474227959", 充值单号
+		"transactionNum": "011801231403474227959", 充值单号
 
-"userName": "1@1.cn",用户登录名
+		"userName": "1@1.cn",用户登录名
 
-"userId": null, 审核人Id  后台用户
+		"userId": null, 审核人Id  后台用户
 
-"customerId": 68,充值用户名
+		"customerId": 68,充值用户名
 
-"accountId": 65,账户ID
+		"accountId": 65,账户ID
 
-"cardHolder": "啊",
+		"cardHolder": "啊",
 
-"transactionType": 3,交易类型(1线上充值,2线上提现 3线下充值 4线下取现 5支付宝充值)
+		"transactionType": 3,交易类型(1线上充值,2线上提现 3线下充值 4线下取现 5支付宝充值)
 
-"transactionMoney": 10000,交易金额
+		"transactionMoney": 10000,交易金额
 
-"fee": 20,手续费
+		"fee": 20,手续费
 
-"status": 1,1待审核 2已完成 3以否决  4表示等待成交
+		"status": 1,1待审核 2已完成 3以否决  4表示等待成交
 
-"ourAccountNumber": "123456789",我方银行卡号     
+		"ourAccountNumber": "123456789",我方银行卡号     
 
-"custromerAccountNumber": "6222021604007927773", 用户卡号
+		"custromerAccountNumber": "6222021604007927773", 用户卡号
 
-"currencyType": null,交易的币类型
+		"currencyType": null,交易的币类型
 
-"surname": "啊", 用户姓
+		"surname": "啊", 用户姓
 
-"trueName": "啊",用户名
+		"trueName": "啊",用户名
 
-"bankNum": "招商银行",银行名称
+		"bankNum": "招商银行",银行名称
 
-"bankName": "zhongguonongyeyinxing",银行拼音
+		"bankName": "zhongguonongyeyinxing",银行拼音
 
-"bankProvince": null, 开户省份
+		"bankProvince": null, 开户省份
 
-"bankAddress": "北京支行",开户行所在地  开户市
+		"bankAddress": "北京支行",开户行所在地  开户市
 
-"subBank": null,开户支行的银行机构代码
+		"subBank": null,开户支行的银行机构代码
 
-"readyStates": null,后台处理后的修改的状态 (表示后台申请了之后  需要第三方回调的方法。)
+		"readyStates": null,后台处理后的修改的状态 (表示后台申请了之后  需要第三方回调的方法。)
 
-"thirdPayName": null, 第三方支付的名字
+		"thirdPayName": null, 第三方支付的名字
 
-"remark": "9891", 备注
+		"remark": "9891", 备注
 
-"rejectionReason": null, 驳回理由
+		"rejectionReason": null, 驳回理由
 
-"accountName": "北京瓦力", 我方名称
+		"accountName": "北京瓦力", 我方名称
 
-"accountNumber": "123456789",我方帐号
+		"accountNumber": "123456789",我方帐号
 
-"created_long": 1516687427430,联系电话
+		"created_long": 1516687427430,联系电话
 
-"style": 0
+		"style": 0
 
-    },
+		},
 
-"code": "8888"
+	"code": "8888"
 
 }
 
@@ -482,57 +482,54 @@ sign1：25725b4ecb8274578e7e907d995cd79c
 
 {
 
-"success": true,
+	"success": true,
 
-"msg": "",
+	"msg": "",
 
-"obj": [
+	"obj": 
+	[{
 
-        {
+		"saasId": "hurong_system",
 
-"saasId": "hurong_system",
+		"created": "2018-01-20 13:07:18",
 
-"created": "2018-01-20 13:07:18",
+		"modified": "2018-01-20 13:07:18",
 
-"modified": "2018-01-20 13:07:18",
+		"id": 8,
 
-"id": 8,
+		"accountId": 65, 账户ID
 
-"accountId": 65, 账户ID
+		"customerId": 68, 用户id
 
-"customerId": 68, 用户id
+		"userName": "1@1.cn", 用户名
 
-"userName": "1@1.cn", 用户名
+		"trueName": "", 名
 
-"trueName": "", 名
+		"surName": "null", 姓
 
-"surName": "null", 姓
+		"currencyType": null, 货币类型
 
-"currencyType": null, 货币类型
+		"cardName": "", 银行卡持有人
 
-"cardName": "", 银行卡持有人
+		"cardNumber": "23", 银行卡号
 
-"cardNumber": "23", 银行卡号
+		"cardBank": "中国银行",  开户银行
 
-"cardBank": "中国银行",  开户银行
+		"bankAddress": "藁城市",  开户行所在地  开户市
 
-"bankAddress": "藁城市",  开户行所在地  开户市
+		"subBank": "23",  开户支行
 
-"subBank": "23",  开户支行
-
-"subBankNum": "23",  开户支行银行机构代码
+		"subBankNum": "23",  开户支行银行机构代码
  
-"website": "",  站点类别默认cn
+		"website": "",  站点类别默认cn
 
-"bankProvince": "河北省",  开户省份
+		"bankProvince": "河北省",  开户省份
 
-"signBank": null   签约银行通道
+		"signBank": null   签约银行通道
 
-        }
+        }],
 
-    ],
-
-"code": "8888"
+	"code": "8888"
 
 }
 
@@ -564,91 +561,91 @@ type：1 （1为充币记录，2 为提币记录）
 
 {
 
-"success": true,
+	"success": true,
 
-"msg": "",
+	"msg": "",
 
-"obj": {
+	"obj": {
 
-"page": 1, 页数
+		"page": 1, 页数
 
-"pageSize": 10, 显示的条数
+		"pageSize": 10, 显示的条数
 
-"totalPage": 1, 总页数
+		"totalPage": 1, 总页数
 
-"recordsTotal": 1, 总条数
+		"recordsTotal": 1, 总条数
 
-"recordsFiltered": 1,
+		"recordsFiltered": 1,
 
-"rows": [
+		"rows": [
 
-            {
+           		 {
 
-"saasId": null,
+			"saasId": null,
 
-"created": "2018-01-23 15:01:57",
+			"created": "2018-01-23 15:01:57",
 
-"modified": null,
+			"modified": null,
 
-"id": null,
+			"id": null,
 
-"transactionMoney": 1, 交易金额
+			"transactionMoney": 1, 交易金额
 
-"transactionNum": "021801231501577184193", 交易订单号
+			"transactionNum": "021801231501577184193", 交易订单号
 
-"fee": 0, 手续费
+			"fee": 0, 手续费
 
-"status": 1, 状态 1待审核 --2已完成 -- 3以否决
+			"status": 1, 状态 1待审核 --2已完成 -- 3以否决
 
-"customerId": null, 用户id
+			"customerId": null, 用户id
 
-"customerName": null,
+			"customerName": null,
 
-"trueName": null,
+			"trueName": null,
 
-"accountId": null, 数字货币账户id
+			"accountId": null, 数字货币账户id
 
-"transactionType": null, 交易类型(1充币 ，2提币)
+			"transactionType": null, 交易类型(1充币 ，2提币)
 
-"userId": null, 操作人id
+			"userId": null, 操作人id
 
-"currencyType": null,
+			"currencyType": null,
 
-"coinCode": "BTC", 币的类型
+			"coinCode": "BTC", 币的类型
 
-"website": null,  站点类别 en ,cn
+			"website": null,  站点类别 en ,cn
 
-"created_long": 1516690917000,
+			"created_long": 1516690917000,
 
-"remark": "",
+			"remark": "",
 
-"rejectionReason": null, 驳回原因
+			"rejectionReason": null, 驳回原因
 
-"inAddress": null,
+			"inAddress": null,
 
-"outAddress": null,
+			"outAddress": null,
 
-"confirmations": null,
+			"confirmations": null,
 
-"blocktime": null,
+			"blocktime": null,
 
-"time": null,
+			"time": null,
 
-"timereceived": null,
+			"timereceived": null,
 
-"ourAccountNumber": null,
+			"ourAccountNumber": null,
 
-"orderNo": null
+			"orderNo": null
 
-            }
+           		 }
 
-        ],
+        		],
 
-"total": 1
+		"total": 1
 
-    },
+   		 },
 
-"code": "8888"
+	"code": "8888"
 
 }
 
@@ -678,13 +675,13 @@ pacecurrecy：0
 
 {
 
-"success": true,
+	"success": true,
 
-"msg": "申请提币成功",
+	"msg": "申请提币成功",
 
-"obj": null,
+	"obj": null,
 
-"code": "8888"
+	"code": "8888"
 
 }
 
